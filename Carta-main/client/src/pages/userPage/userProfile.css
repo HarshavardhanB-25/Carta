@@ -1,0 +1,188 @@
+body{
+  
+  width: 100%;
+  height: 100vh; /* Adjust as needed */
+  overflow: hidden; 
+}
+.maindappa{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 75vh;
+
+}
+.user-container {
+  border-radius: 15px;
+  background-color: rgb(255, 255, 255);
+  padding: 5vw;
+  display: flex;
+  justify-content: flex-start;
+  font-size: 4vw;
+  margin: 10vmax;
+  width: 80vw;
+   /* Adjust margin as needed */
+  /* Adjust width based on margin */
+  height: 100%;
+}
+.contentNavigation{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 70%;
+  justify-items: flex-start;
+  position: relative;
+  right: 3vw;
+  height: 75%;
+}
+
+.usernav-items{
+  display: flex;
+  flex-direction: column;
+  margin-right: 3vw;
+  width: 100%;
+    list-style: none;
+
+   
+}
+.usernav-items li{
+  font-size: 20px;
+  padding: 0 0 25px 0;
+
+}
+
+.usernav-items li a{
+  color: rgb(51, 51, 51);
+  text-decoration: none;
+  
+}
+
+.usernav-items li a.active {
+  font-size: 20px;
+  padding: 10px 20px;
+  border-radius: 35px;
+  
+  background-color: rgba(10, 30, 53, 0.735);
+  color: rgb(220, 220, 220);
+   /* Add bottom border on hover */
+}
+
+.proimage{
+  height: 70px;
+  width: 70px;
+  border-radius: 50px;
+  background-color: grey;
+  margin-right: 20px;
+}
+
+.name-details{
+  margin-top: 2vh;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+
+
+}
+
+.imageNamegrp{
+  display: flex;
+  width: 45%;
+  
+}
+
+.editbutton{
+  background-color: #222222;
+  width: 6vw;
+  border-radius: 40px;
+  height: 6vh;
+}
+.persondet{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 5vh;
+  
+}
+
+
+.personfirstrow{
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 0 1rem 0;
+}
+
+.personsecondrow{
+  display: flex;
+  justify-content: space-between;
+  width: 49%;
+  
+}
+
+.itemheading{
+
+  font-weight: 500;
+  font-size: 18px;
+  color: rgb(23,23,23);
+}
+
+.itemvalue{
+  
+  font-weight: 400;
+  font-size: 20px;
+  color: rgb(101, 101, 101);
+}
+
+
+.myprofile{
+  font-size: 26px;
+}
+
+
+.personalinfo{
+  font-size: 20px;
+}
+
+.choooselang{
+  width: 40%;
+  border-radius: 8px;
+}
+
+.Location{
+  font-size: 20px;
+  font-weight: 500;
+  color: rgb(101, 101, 101);
+}
+
+
+
+
+
+@media (min-height: 700px) {
+  .user-container {
+    padding: 4rem 3rem 2rem 3rem; /* Adjust padding as needed */
+    font-size: 1.3rem; /* Adjust font size as needed */
+    /* Adjust margin as needed */
+   
+    /* Adjust width based on margin */
+  }
+  
+  .contentNavigation{
+    height: 65%;
+  }
+}
+
+
+
+
+
+
+@media (min-width: 768px) {
+  .user-container {
+    /* 4rem 3rem 2rem 3rem */
+    padding: 4rem 2rem 2rem 2rem; /* Adjust padding as needed */
+    font-size: 1.3rem; /* Adjust font size as needed */
+    /* Adjust margin as needed */
+    /* Adjust width based on margin */
+  }
+}
+
+/* Add other media queries for larger resolutions if necessary */
